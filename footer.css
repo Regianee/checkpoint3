@@ -1,57 +1,3 @@
-* {
-    box-sizing: border-box;
-
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 80px;
-    background: #FFFFFF;
-    padding-left: 20px;
-    padding-right: 20px;
-
-}
-
-nav a {
-    text-decoration: none;
-    margin-right: 10px;
-    width: 81px;
-    height: 21px;
-    left: 1210px;
-    top: 30px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    color: #626262;
-
-
-}
-.banner img {
-    width: 100%;
-}
-
-
-.banner{
-    width: 100%;
-    height: 500px;
-    background-image: url(./img/banner.png);}
-
-
-
-main {
-    height: 600px;
-    width:100% ;
-}
-
-
 footer .alunos{
     display: flex;
     flex-direction: row;
@@ -61,6 +7,7 @@ footer .alunos{
     height: 364px;
     background: #171717;
     gap: 30px;
+    text-align: center;
 }
 
 footer h1 {
@@ -134,11 +81,9 @@ footer .alunos .redes {
 
 footer .textofinal {
     position: absolute;
-    width: 386px;
-    height: 28px;
-    left: 555px;
-    top: 2116px;
-    text-align: center;
+    left: 40%;
+    top: 1480px; 
+    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
